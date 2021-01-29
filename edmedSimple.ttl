@@ -1,0 +1,72 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<https://edmed.seadatanet.org/>
+        a            dcat:Catalog ;
+        dct:title    "European Directory of Marine Environmental Datasets"@en ;
+		dct:description    "European Directory of Marine Environmental Datasets"@en ;
+        dct:publisher <https://edmo.seadatanet.org/report/634> ;
+        dcat:dataset  
+<https://edmed.seadatanet.org/report/3860/>,
+<https://edmed.seadatanet.org/report/3841/>,
+<https://edmed.seadatanet.org/report/2212/> ,
+<https://edmed.seadatanet.org/report/249/> ,
+<https://edmed.seadatanet.org/report/6325/>,
+<https://edmed.seadatanet.org/report/834/>,
+<https://edmed.seadatanet.org/report/2831/>,
+<https://edmed.seadatanet.org/report/6944/>,
+<https://edmed.seadatanet.org/report/815/>,
+<https://edmed.seadatanet.org/report/2812/>  .
+
+ <https://edmo.seadatanet.org/report/634> a foaf:Agent;
+ foaf:name "SeaDataNet" .
+<https://edmed.seadatanet.org/report/3860/>
+        a                dcat:Dataset ;
+        dct:description  "Current and hydrographic measurements were performed in the Archipelago of La Maddalena (Sardinia Island, Italy), as part of an environmental survey. An area with a radius of 10 Km around S. Stefano Island was chosen for the study. Measurements were taken by the former SO in cooperation with the Comitato Nazionale Energia Nucleare (CNEN, the forerunner of ENEA). CTD measurements were taken from the CNR oceanographic vessel MARSILI by means of an automatic probe, designed and constructed in the laboratories of SO and CNEN. The probe consisted of an underwater unit connected to a receiver at the surface. The salinity was calibrated by comparison with discrete samples collected using NIO bottles and analysed by means of a GUILDLINE AUTOSAL salinometer.  The raw data were treated to eliminate measurement errors, to calibrate the measured values, to correct temperature and conductivity for the time constant of the sensors and finally, to produce vertical profiles of temperature, salinity and density at 1 meter depth intervals.  Station coordinates are given in latitude and longitude and time is in GMT. The number of hydrographic stations was 85 in August 1976, 39 in September 1976 and 76 in February 1977."@en ;
+        dct:title        "CTD measurements in La Maddalena Archipelago (Sardinia, Italy), 1976-77"@en .
+
+<https://edmed.seadatanet.org/report/3841/>
+        a                dcat:Dataset ;
+        dct:description  "Current measurements were collected by a mooring system specifically designed to sample the major features of the investigated area, as well as to provide information about some of the properties of the mesoscale field. The measurements were carried out in the Central Tyrrhenian Sea (42.07deg N, 10.45deg E; 41.23deg N, 10.93deg E) and East of the Strait of Bonifacio (41.55deg N, 10.05deg E) from September 1989 to July 1990, by 3 instrument chains deployed at the vertices of a triangle.  Since October 1990 to 1992 two current meters chains we working in the Sardinia Channel (39.13deg N, 9.80deg E; 39.32deg N, 12.32deg E).  Each chain was equipped with 3 current meters, adjusted to record a full string of data (instrument depth, current speed and direction, temperature and conductivity) with a sampling rate of 30 minutes."@en ;
+        dct:title        "Current meter data in Tyrrhenian Sea during project TEMPO (1989-1992)"@en .
+
+<https://edmed.seadatanet.org/report/2212/>
+        a                dcat:Dataset ;
+        dct:description  "For details of the research objectives underlying the data collecting activities of the University of Lisbon Group of Oceanography (GOUL) please refer to the Data Holding Centre Description for GOUL."@en ;
+        dct:title        "CORPAC; Airborne sea surface temperature mapping off Northern Portugal (1986)"@en .
+
+<https://edmed.seadatanet.org/report/249/>
+        a                dcat:Dataset ;
+        dct:description  "XRF analysis on fused discs (majors) and pressed sediment discs (minors) to assess temporal variations including anthropogenic heavy metal inputs and the effects of burial diagenesis on the composition of sediments."@en ;
+        dct:title        "Sediment core major elements collected in the Adriatic, Ionian Sea and Otranto Strait during MATER Project"@en .
+
+<https://edmed.seadatanet.org/report/6325/>
+        a                dcat:Dataset ;
+        dct:description  "Data from 50 surveillance coastal stations visited during one year of the River Basin Districts and from 30 operational coastal stations visited yearly. Seasonal frequencies 1-4 times a year for physicochemical parameters,  2 for phytoplankton, once a year for benthic macroinvertebrates and macroalgae. The project is the implementation of the WFD 2000/60 EC Directive in coastal waters of Greece.   "@en ;
+        dct:title        "Water Framework Directive (WFD) Greece (2012-2015)"@en .
+
+<https://edmed.seadatanet.org/report/834/>
+        a                dcat:Dataset ;
+        dct:description  "The data set comprises current meter data from the North Channel gathered by Gardline Surveys in 1992 and 1993. These are detailed below:    Latitude    Longitude     Water   Start Date     End Date   (deg min)   (deg min)      Depth                                         (m)   54 52.58N   005 11.1W    30    09 Aug 1992   14 Sep 1992   54 51.17N   005 43.36W   26    16 Sep 1992   17 Oct 1992   54 46.36N   005 40.2W    26    16 Sep 1992   17 Oct 1992   54 59.03N   005 11.17W   16    17 Feb 1993   25 Mar 1993   54 29.21N   005 12.08W   25    17 Feb 1993   24 Mar 1993   54 51.58N   005 44.47W   46    17 Feb 1993   21 Mar 1993"@en ;
+        dct:title        "Current meter data from the North Channel (1992-1993)"@en .
+
+<https://edmed.seadatanet.org/report/2831/>
+        a                dcat:Dataset ;
+        dct:description  "The data correspond to the oceanographic cruise BIOCAN'97 carried in waters of the Canary island Sea in June-July 1997 with the aim to study the hydrographiuc  features in the zone and its relation to carbon production"@en ;
+        dct:title        "Hydrographic data (CTD, nutrients and oxigen) of the Canary Islands Area. BIOCAN 97"@en .
+
+<https://edmed.seadatanet.org/report/6944/>
+        a                dcat:Dataset ;
+        dct:description  "Sea surface currents recorded by High Frequency Radar located on the tip of Brittany (France) since 2006 and operated by Shom"@en ;
+        dct:title        "HFR surface currents in the Iroise Sea"@en .
+
+<https://edmed.seadatanet.org/report/815/>
+        a                dcat:Dataset ;
+        dct:description  "Dye tracing studies 1992: a number of dye tracing surveys have been undertaken in Ballycastle (Co. Antrim), Larne (Co. Antrim) and Buncrana (Co. Donegal). Surveys investigated tidal movements permitting validation and calibration of computerised hydrodynamic and water quality models.  Carlingford Lough, Northern Ireland, 1991: current meter and water quality survey and rhodamine B dye release experiments (discrete and continuous) in connection with the siting of sewage outfalls.  Carlingford Lough, Ireland 1992: continuous rhodamine B dye release, to validate a computer model, in connection with the siting of a sewage outfall."@en ;
+        dct:title        "Dye tracing studies at four sites on the coast of Northern Ireland (1991 and 1992)"@en .
+
+<https://edmed.seadatanet.org/report/2812/>
+        a                dcat:Dataset ;
+        dct:description  "Contains the data reported by the State Department for the Politics of Water and Environment within the National Program of Pollution Monitoring of the Mediterranean included in the Long Term Programme for Pollution Monitoring and Research in the Mediterranean (MED-POL II) of the Mediterranean Action Plan."@en ;
+        dct:title        "MED-POL II monitoring of contaminants in biota of Mediterranean waters around Spain 88-90"@en .
